@@ -61,9 +61,7 @@ for j in range(int(cube_height/layer_height)):
     inset+=line_width*2
     #  inner square
     draw_square(cube_width-inset, cube_length-inset, layer_height)
-    g.move(x=line_width, y=line_width)
-    inset+=line_width*2
-
+    
     # draw zigzag
     # Which direction should we zigzag?
     if j%2==0:
